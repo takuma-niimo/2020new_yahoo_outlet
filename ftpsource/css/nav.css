@@ -1,0 +1,436 @@
+/* -------------------------------------
+navigation
+------------------------------------- */
+
+.shop-logo img {
+    width: 100%;
+    max-width: 90px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.mobile-header {
+    height: 70px;
+    width: 100%;
+    max-width: 100%;
+    background: white;
+    border: none;
+    overflow: hidden;
+}
+
+.mobile-header h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #484848;
+}
+
+.mobile-header h1+span {
+    font-size: 12px;
+}
+
+.pc-header {
+    height: 160px;
+    width: 100%;
+    background: white;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.navbar-1st, .navbar-2nd {
+    height: 70px;
+}
+
+.pc-header .navbar-left img {
+    display: inline-block;
+    width: 115px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.pc-header h1 {
+    font-weight: bold;
+    font-size: 32px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 300px;
+}
+
+.searchbox-pc {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 60px;
+}
+
+.searchbox-pc input[type="text"] {
+    border: none;
+    line-height: 32px;
+}
+
+.searchbox-pc input[type="text"]:focus {
+    border: none;
+    outline: none;
+}
+
+.searchbox-pc input[type="text"]::placeholder {
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: lightgray;
+}
+
+.searchbox-pc input[type="submit"] {
+    background: none;
+    border: none;
+    font-size: 24px;
+    vertical-align: middle;
+    padding: 6px;
+    color: lightgray;
+}
+
+.searchbox-pc .search {
+    border-bottom: 2px solid gray;
+}
+
+.searchbox-pc+div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navbar-2nd {
+    height: 40px;
+    margin-top: 20px;
+}
+
+.navbar-2nd i {
+    font-size: 26px;
+    color: lightgray;
+    margin-right: 16px;
+}
+
+.navbar-2nd a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #4e3c3c;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.navbar-2nd a:hover, .navbar-2nd a:visited {
+    text-decoration: none;
+}
+
+.navbar-2nd a>p {
+    display: inline-block;
+    height: 22px;
+    vertical-align: middle;
+}
+
+nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    bottom: 0;
+    width: 300px;
+    background: #ffffff;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    transition: .5s;
+    z-index: 1032;
+}
+
+.navtitle {
+    margin: 0;
+    background: #dcd8d8;
+    padding: 20px;
+}
+
+.navtitle h2 {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+.navtitle h2 span {
+    display: block;
+    font-size: 80%;
+    margin-top: 10px;
+}
+
+.navtitle .row>* {
+    vertical-align: middle;
+}
+
+.open nav {
+    left: 0;
+}
+
+nav .inner {
+    padding: 10px;
+}
+
+nav .inner ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav .inner ul li {
+    position: relative;
+    margin: 0;
+}
+
+nav .inner ul li a {
+    display: block;
+    color: #333;
+    font-size: 10px;
+    line-height: 2.5em;
+    padding: 1em;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+nav .inner ul li i {
+    margin-right: 1em;
+    font-size: 18px;
+    text-align: center;
+    width: 1.5em;
+    color: #dcd8d8;
+}
+
+nav .inner ul li a:hover {
+    background: #e4e4e4;
+}
+
+.news {
+    height: 65px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-image: url(../img/common/news-bg.png);
+    background-size: 65px 65px;
+    background-repeat: repeat;
+    color: #484848;
+}
+
+.news .whitebox {
+    margin: 0 auto;
+    max-width: 250px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.news .whitebox p {
+    text-align: center;
+    margin: 0;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+.news .whitebox i {
+    font-size: 17px;
+}
+
+@media screen and (max-width: 767px) {
+    nav {
+        left: -240px;
+        width: 240px;
+    }
+}
+
+/*============
+@keyframes
+=============*/
+@keyframes equalizer01 {
+    0% {
+        width: 70%;
+    }
+    10% {
+        width: 50%;
+    }
+    20% {
+        width: 100%;
+    }
+    30% {
+        width: 10%;
+    }
+    40% {
+        width: 50%;
+    }
+    50% {
+        width: 70%;
+    }
+    60% {
+        width: 50%;
+    }
+    70% {
+        width: 10%;
+    }
+    80% {
+        width: 100%;
+    }
+    90% {
+        width: 10%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes equalizer02 {
+    0% {
+        width: 30%;
+    }
+    10% {
+        width: 20%;
+    }
+    20% {
+        width: 40%;
+    }
+    30% {
+        width: 10%;
+    }
+    40% {
+        width: 20%;
+    }
+    50% {
+        width: 30%;
+    }
+    60% {
+        width: 20%;
+    }
+    70% {
+        width: 10%;
+    }
+    80% {
+        width: 40%;
+    }
+    90% {
+        width: 10%;
+    }
+    100% {
+        width: 30%;
+    }
+}
+
+/*============
+.navToggle
+=============*/
+.navToggle {
+    display: block;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    width: 60px;
+    height: 30px;
+    transform: translate(0, 0);
+    transition: all .5s;
+    cursor: pointer;
+    z-index: 1032;
+}
+
+.open .navToggle {
+    left: 330px;
+}
+
+.navToggle span {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 30px;
+    height: 2px;
+    background-color: #666;
+    transition: all .5s;
+}
+
+.navToggle span:nth-child(1) {
+    top: 5px;
+    width: 60px;
+    animation: equalizer01 7000ms infinite;
+}
+
+.navToggle span:nth-child(2) {
+    top: 15px;
+    width: 30px;
+    animation: equalizer02 5000ms infinite;
+    animation-delay: 0.33s;
+}
+
+.navToggle span:nth-child(3) {
+    top: 25px;
+    width: 20px;
+    animation: equalizer02 5000ms infinite;
+}
+
+.open .navToggle span {
+    background-color: #fff;
+    width: 30px;
+}
+
+.open .navToggle span:nth-child(1) {
+    transform: translate(0, 10px) rotate(-45deg);
+    animation: unset;
+}
+
+.open .navToggle span:nth-child(2) {
+    opacity: 0;
+    animation: unset;
+}
+
+.open .navToggle span:nth-child(3) {
+    transform: translate(0, -10px) rotate(45deg);
+    animation: unset;
+}
+
+@media screen and (max-width: 767px) {
+    .open .navToggle {
+        left: 260px;
+    }
+}
+
+/*============
+#navMask
+=============*/
+#navMask {
+    display: none;
+}
+
+.open #navMask {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .8;
+    z-index: 1031;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+/*============
+main
+=============*/
+main {
+    padding: 50px;
+}
+
+main h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+/*============
+body
+=============*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+

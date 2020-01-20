@@ -1,0 +1,10 @@
+@import url(nav.css);
+
+.nopadding {
+    padding: 0;
+}
+
+.content-wrap {
+    padding-left: 15px;
+    padding-right: 15px;
+}

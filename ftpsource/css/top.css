@@ -1,0 +1,178 @@
+* {
+    /* outline: 1px dashed green; */
+}
+
+.content-wrap {
+    background: #faf8cb;
+}
+
+/* -------------------------------------
+categories
+------------------------------------- */
+.categories {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #faf8cb;
+    text-align: center;
+}
+
+.categories span {
+    padding: 5px 7px;
+    line-height: 24px;
+    display: inline-block;
+    margin: 5px 2px;
+    border: 1px solid #484848;
+    border-radius: 5px;
+    background: white;
+}
+
+.categories a {
+    color: #484848;
+}
+
+.categories a:hover {
+    text-decoration: none;
+}
+
+
+/* -------------------------------------
+category-unit
+------------------------------------- */
+.category-unit {
+    margin-bottom: 2em;
+}
+
+.category-unit a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.category-unit img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.category-unit .title {
+    font-size: 16px;
+    margin-bottom: .5em;
+    border-bottom: 2px dotted indianred;
+    line-height: 2em;
+}
+
+.category-unit .title>i {
+    margin-right: .3em;
+}
+
+.category-unit .card {
+    padding: 15px;
+}
+
+.category-unit .card-inner {
+    background: white;
+    padding-bottom: 10px;
+}
+
+.card-inner h5, .card-inner p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #7f7f7f;
+}
+
+.card-text {
+    font-size: 12px;
+    color: #ccc;
+}
+
+/* -------------------------------------
+corner-card
+------------------------------------- */
+.corner-card {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+}
+
+.corner-card img {
+    width: 100%;
+}
+
+/* -------------------------------------
+footer
+------------------------------------- */
+footer {
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+.copyright {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-part {
+    line-height: 60px;
+    padding-left: 15px;
+    border-bottom: 1px solid darkgray;
+}
+
+.footer-part i {
+    margin-right: 15px;
+}
+
+.footer-pc {
+    margin-bottom: 40px;
+}
+
+.footer-pc i {
+    color: lightgray;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.footer-pc a {
+    font-size: 14px;
+}
+
+.contact {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url(../img/common/news-bg.png);
+    background-repeat: repeat;
+    background-size: 65px 65px;
+    font-size: 16px;
+}
+
+.contact .whitebox {
+    padding: 10px 20px;
+    max-width: 300px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact h3 {
+    font-size: 14px;
+}
+
+.contact small {
+    font-size: 12px;
+}
+
+.contact i {
+    margin-right: 15px;
+}
