@@ -59,8 +59,12 @@ category-unit
     line-height: 2em;
 }
 
-.category-unit .title>i {
+.category-unit .title>i,.category-unit .title>img {
     margin-right: .3em;
+}
+
+.category-unit .title>img {
+    width: 26px;
 }
 
 .category-unit .card {

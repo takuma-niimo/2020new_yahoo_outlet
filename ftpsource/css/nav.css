@@ -194,7 +194,7 @@ nav .inner ul li a {
     transition-duration: 0.2s;
 }
 
-nav .inner ul li i {
+nav .inner ul li i,nav .inner ul li img {
     margin-right: 1em;
     font-size: 18px;
     text-align: center;
